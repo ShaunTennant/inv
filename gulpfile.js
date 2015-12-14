@@ -3,7 +3,7 @@ var gulpTypescript = require('gulp-typescript');
 var tsconfig = gulpTypescript.createProject('src/tsconfig.json');
 var del = require('del');
 var gulpLess = require('gulp-less');
-// var dist = 'C:/Apache24/htdocs/mock/';
+// var dist = 'C:/Apache24/htdocs/inv/';
 var dist = './dist/';
 
 gulp.task('clean', function () {
