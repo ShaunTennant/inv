@@ -1,0 +1,31 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "s": "node_Modules\\.bin\\live-server --open=dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.52",
+    "systemjs": "^0.19.6",
+    
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "^5.0.0-alpha.14",
+    "zone.js": "0.5.8"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-typescript": "^2.9.2",
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  }
+
+}

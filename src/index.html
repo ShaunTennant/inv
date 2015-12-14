@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset=utf-8>
+    <title>Inv 0.0.1</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/router.dev.js"></script>
+    <script>
+        System.config({ packages: { 'inventory': { defaultExtension: 'js' } } });
+        System.import('inventory/boot').catch(console.log.bind(console));
+    </script>
+</head>
+
+<body>
+    <inventory>Loading...</inventory>
+</body>
+
+</html>
