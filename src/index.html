@@ -12,24 +12,8 @@
     <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
     <script src="../node_modules/angular2/bundles/router.dev.js"></script>
 
-    <!--<script>
-        System.config({packages: {inventory: {format: 'register',defaultExtension: 'js'}}});
-        System.import('inventory/boot').then(null, console.error.bind(console));
-    </script>-->
-    <!--<script>
-        System.config({ packages: { 'inventory': { defaultExtension: 'js' } } });
-        System.import('inventory/boot').catch(console.log.bind(console));
-    </script>-->
-
     <script>
-        System.config({
-            packages: {
-                inventory: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
+        System.config({ packages: { inventory: { format: 'register', defaultExtension: 'js' } } });
         System.import('inventory/boot').then(null, console.error.bind(console));
     </script>
 </head>
